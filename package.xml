@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>xacro_rviz_viewer</name>
+  <version>1.2.0</version>
+  <description>
+	This Package let you view simply rviz and xacro file.
+  </description>
+  <license>Apache 2.0</license>
+  <author email="taehyeong77@naver.com">Kimtaehyung</author>
+  <maintainer email="taehyeong77@naver.com">Kimtaehyung</maintainer>
+  <url type="Git">http://wiki.ros.org/turtlebot3_fake</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf</depend>
+  <depend>turtlebot3_msgs</depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+</package>
